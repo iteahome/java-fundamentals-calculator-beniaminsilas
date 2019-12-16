@@ -16,9 +16,6 @@ public class Calculator {
         System.out.print("Selecteaza un operator = ");
         c=userInput.next().charAt(0);
 
-
-
-
 if(c=='+')op=x+y;
 else
 if(c=='-')op=x-y;
