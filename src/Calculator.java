@@ -8,10 +8,14 @@ public class Calculator {
         int op=0;
         char c='+';
         Scanner userInput= new Scanner(System.in);
+        System.out.print("x = ");
         x=userInput.nextInt();
 
+        System.out.print("y = ");
         y=userInput.nextInt();
+        System.out.print("Selecteaza un operator = ");
         c=userInput.next().charAt(0);
+
 
 
 
@@ -24,7 +28,7 @@ else
 if(c=='/')op=x/y;
 else
 if(c=='%')op=x%y;
-    System.out.println (op);
+    System.out.println ("Rezultatul tau este = "  + op);
 
 
     }
